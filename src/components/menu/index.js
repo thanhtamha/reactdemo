@@ -15,9 +15,7 @@ export default class NavMenu extends Component {
     return (
       <ul>
         <li>
-          <Link className="active" to="/dashboard">
-            Dashboard
-          </Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
