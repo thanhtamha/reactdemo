@@ -6,6 +6,9 @@ import Login from "./modules/login";
 import Home from "./modules/home";
 import Contact from "./modules/contact";
 
+// import Hello from "./components/hello";
+// import Hello2 from "./components/hello2";
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -15,6 +18,9 @@ export default class App extends Component {
   render() {
     return (
       <Router>
+        {/* <Hello name="Class Component"></Hello>
+        <Hello2 name="Functional Component"></Hello2> */}
+
         <Switch>
           <Route exact path="/" component={Login} />
           <Route path="/home" component={Home} />
